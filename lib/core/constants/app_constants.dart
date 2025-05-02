@@ -10,6 +10,12 @@ class AppConstants {
   static const int receiveTimeout = 30000; // 30 seconds
   static const bool enableMockData = false; // Set to false for real API data
 
+  // WebSocket URLs
+  static const String upstoxWebSocketUrl =
+      'wss://api.upstox.com/feed/market-data/ws';
+  static const String upstoxPortfolioWebSocketUrl =
+      'wss://api.upstox.com/feed/portfolio/ws';
+
   // Authentication
   static const String tokenKey = 'auth_token';
   static const String refreshTokenKey = 'refresh_token';
